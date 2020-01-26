@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  background: #201d1e;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 27px;
+}
+
+.hidden {
+	display: none;
+}
+
+#siteContainer {
+  background: #d0c6ab;
+  width: 980px;
+  margin: 0 auto;
+  height: auto;
+  color: #0b8883;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#logo {
+  padding-top: 20px;
+  padding-left: 350px;
+}
+
+#mainNav {
+	padding-left: 240px;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+#mainNav ul {
+	list-style-type: none;
+	/*padding-top: 22px;*/
+}
+
+#mainNav ul li {
+	float: left;
+}
+
+#mainNav ul li a {
+	display: block;
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 30px;
+	margin-top: 10px;
+	padding: 10px;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	border-radius: 10px;
+	cursor: pointer;
+
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+#mainNav ul li a:hover {
+	background-color: #0b8883;
+	border-radius: 10px;
+	color: #d0c6ab;
+	font-weight: bold;
+	font-size: 125%;
+}
+/* ABOUT US */
+
+p {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 25px;
+  font-weight: bold
+}
+
+p::first-letter {
+  font-size: 50px;
+  color: #f3f1f0;
+  text-shadow: 6px 3px #0b8883;
+}
+
+span .italic {
+  font-style: italic;
+}
+
+.mainContainer {
+  padding-top: 75px;
+}
+
+.mainContainer2 {
+  width: 980px;
+}
+
+.floatImage {
+  float: left;
+  padding-right: 20px;
+}
+
+/* ABOUT US */
+
+/* PRODUCTS */
+
+.beers {
+  padding-top: 75px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.beers ul li a:hover {
+  color: #fff;
+}
+
+.images {
+  flex-direction: row;
+  display: flex;
+  height: 300px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  justify-content: space-between;
+}
+
+/* PRODUCTS */
